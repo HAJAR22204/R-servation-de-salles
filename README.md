@@ -53,6 +53,11 @@ reservation-salles/
 | `Reservation` | `reservations` | Lien entre un utilisateur et une salle sur un créneau |
 | `Equipement` | `equipements` | Équipements associés aux salles |
 
+## Diagramme de classe
+
+<img width="1418" height="741" alt="image" src="https://github.com/user-attachments/assets/7ba85ce4-550d-4237-ae16-70ee3f453f23" />
+
+
 ### Relations
 
 - `Utilisateur` -> `Reservation` : **OneToMany**
