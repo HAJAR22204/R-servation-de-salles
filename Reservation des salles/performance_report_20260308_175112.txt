@@ -1,0 +1,54 @@
+=== RAPPORT DE PERFORMANCE ===
+Date: 2026-03-08 17:51:12
+=================================
+
+Test: Recherche multi-critères
+Temps d'exécution: 7ms
+Nombre de requêtes: 0
+Entités chargées: 0
+Hits du cache: 0
+Miss du cache: 0
+Taille du résultat: 3
+Ratio de hit du cache: 0,00%
+----------------------------------
+
+Test: Recherche de salles disponibles
+Temps d'exécution: 4ms
+Nombre de requêtes: 0
+Entités chargées: 0
+Hits du cache: 0
+Miss du cache: 0
+Taille du résultat: 15
+Ratio de hit du cache: 0,00%
+----------------------------------
+
+Test: Pagination
+Temps d'exécution: 1ms
+Nombre de requêtes: 0
+Entités chargées: 0
+Hits du cache: 0
+Miss du cache: 0
+Taille du résultat: 10
+Ratio de hit du cache: 0,00%
+----------------------------------
+
+Test: Accès répété avec cache
+Temps d'exécution: 20ms
+Nombre de requêtes: 0
+Entités chargées: 0
+Hits du cache: 0
+Miss du cache: 0
+Taille du résultat: 1
+Ratio de hit du cache: 0,00%
+----------------------------------
+
+Test: Requête avec JOIN FETCH
+Temps d'exécution: 6ms
+Nombre de requêtes: 0
+Entités chargées: 0
+Hits du cache: 0
+Miss du cache: 0
+Taille du résultat: 9
+Ratio de hit du cache: 0,00%
+----------------------------------
+
