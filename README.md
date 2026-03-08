@@ -57,7 +57,7 @@ reservation-salles/
 
 - `Utilisateur` -> `Reservation` : **OneToMany**
 - `Salle` -> `Reservation` : **OneToMany**
-- `Salle` ↔ `Equipement` : **ManyToMany** (table de jointure `salle_equipement`)
+- `Salle` <-> `Equipement` : **ManyToMany** (table de jointure `salle_equipement`)
 
 ### Statuts de réservation (`StatutReservation`)
 
