@@ -159,7 +159,7 @@ Ratio de hit du cache: 99.00%
 ```java
 PerformanceReport report = new PerformanceReport(emf);
 report.runPerformanceTests();
-// → génère performance_report_20230515_143022.txt
+// -> génère performance_report_20230515_143022.txt
 ```
 
 ---
@@ -185,7 +185,7 @@ initializer.initializeData();
 L'optimistic locking est testé avec deux threads concurrents modifiant la même réservation. En cas de conflit, une `OptimisticLockException` est levée et la transaction est annulée.
 
 ```
-Thread 1: version = 0 → commit réussi 
-Thread 2: version = 0 → OptimisticLockException  → rollback
+Thread 1: version = 0 -> commit réussi 
+Thread 2: version = 0 -> OptimisticLockException  -> rollback
 ```
 
