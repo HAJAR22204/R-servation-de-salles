@@ -43,7 +43,6 @@ reservation-salles/
 
 ---
 
-## 🧩 Modèle de données
 
 ### Entités principales
 
